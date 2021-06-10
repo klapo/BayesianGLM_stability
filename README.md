@@ -10,6 +10,8 @@ The data preparation notebooks contain all of the data munging for this mini-exp
 
 ## stability
 
-I take advantage of DTS's unique ability to describe the vertical gradient temperature. Stability ($\frac{dT}{d\ln{z}}$) is estimated for the first time using DTS (`bayesian-GLM_estimate-dTdz.ipynb`). When combined with a Bayesian Generalized Linear Model stability appears to be better described than when using point observations and/or traditional linear fitting methods.
+I take advantage of DTS's unique ability to describe the vertical gradient temperature. Stability is estimated for the first time using DTS (`bayesian-GLM_estimate-dTdz.ipynb`). 
 
-After deriving stability it is evaluated (`evaluate_dTdlnz.ipynb`), the CSAT and DTS air temperature biases are investigated (`evaluate_dTdlnz.ipynb`), the factors that control stability are investigated using PCA (`investigate_dTdlnz.ipynb`), and the implication these novel estimates of stability on theory are investigated (`similarity-theory_dTdlnz.ipynb`).
+After deriving stability it is evaluated (`evaluate_dTdlnz.ipynb`). When combined with a Bayesian Generalized Linear Model stability appears to be better described than when using point observations and/or traditional linear fitting methods.
+
+The CSAT and DTS air temperature biases are investigated (`evaluate_dTdlnz.ipynb`), the factors that control stability (`investigate_dTdlnz.ipynb`), and the implication these novel estimates of stability on theory are investigated (`similarity-theory_dTdlnz.ipynb`) are all investigated using PCA.
