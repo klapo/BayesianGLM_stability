@@ -1,6 +1,6 @@
 # BayesianGLM_stability
 
-Distributed Temperature Sensing offers an unprecendented view into the vertical structure of the boundary layer. 
+Distributed Temperature Sensing offers an unprecendented view into the vertical structure of the boundary layer. Some initial investigations into this are presented in this repository. If you have trouble viewing the notebook through github's interface, you can use the [nbviewer portal](https://nbviewer.jupyter.org/) to render the notebook.
 
 ## Data Preparation
 
